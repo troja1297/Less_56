@@ -14,6 +14,7 @@ namespace Instagram_v_01.Data
         public DbSet<PostCommentModel> PostCommentModels { get; set; }
         public DbSet<UserPostModel> UserPostModels { get; set; }
         public DbSet<Subscription> Subscriptions { get; set; }
+        public DbSet<LikeModel> Likes { get; set; }
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
         {

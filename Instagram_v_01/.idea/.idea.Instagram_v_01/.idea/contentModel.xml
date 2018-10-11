@@ -51,6 +51,7 @@
             <e p="TwoFactorAuthenticationViewModel.cs" t="Include" />
           </e>
           <e p="PostModels" t="Include">
+            <e p="LikeModel.cs" t="Include" />
             <e p="PostCommentModel.cs" t="Include" />
             <e p="UserPostModel.cs" t="Include" />
           </e>
