@@ -1,0 +1,93 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "D:\\C#\\less_56\\Less_56\\Instagram_v_01\\Instagram_v_01\\Instagram_v_01.csproj",
+    "projectName": "Instagram_v_01",
+    "projectPath": "D:\\C#\\less_56\\Less_56\\Instagram_v_01\\Instagram_v_01\\Instagram_v_01.csproj",
+    "outputPath": "D:\\C#\\less_56\\Less_56\\Instagram_v_01\\Instagram_v_01\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.0"
+    ],
+    "frameworks": {
+      "netcoreapp2.0": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.0": {
+      "dependencies": {
+        "Microsoft.AspNet.Identity.Core": {
+          "target": "Package",
+          "version": "[2.2.2, )"
+        },
+        "Microsoft.AspNet.Identity.EntityFramework": {
+          "target": "Package",
+          "version": "[2.2.2, )"
+        },
+        "Microsoft.AspNet.Identity.Owin": {
+          "target": "Package",
+          "version": "[2.2.2, )"
+        },
+        "Microsoft.AspNetCore.All": {
+          "target": "Package",
+          "version": "[2.0.8, )"
+        },
+        "Microsoft.AspNetCore.Owin": {
+          "target": "Package",
+          "version": "[2.1.1, )"
+        },
+        "Microsoft.EntityFrameworkCore.Tools": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.0.3, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.0.0, )",
+          "autoReferenced": true
+        },
+        "Microsoft.Owin": {
+          "target": "Package",
+          "version": "[4.0.0, )"
+        },
+        "Microsoft.Owin.Host.SystemWeb": {
+          "target": "Package",
+          "version": "[4.0.0, )"
+        },
+        "Microsoft.Owin.Security": {
+          "target": "Package",
+          "version": "[4.0.0, )"
+        },
+        "Microsoft.Owin.Security.Cookies": {
+          "target": "Package",
+          "version": "[4.0.0, )"
+        },
+        "Microsoft.Owin.Security.OAuth": {
+          "target": "Package",
+          "version": "[4.0.0, )"
+        },
+        "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.0.4, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

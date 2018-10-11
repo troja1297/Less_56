@@ -1,0 +1,12 @@
+D:\C#\less_56\Less_56\Instagram_v_01\Instagram_v_01\bin\Debug\netcoreapp2.0\Instagram_v_01.deps.json
+D:\C#\less_56\Less_56\Instagram_v_01\Instagram_v_01\bin\Debug\netcoreapp2.0\Instagram_v_01.runtimeconfig.json
+D:\C#\less_56\Less_56\Instagram_v_01\Instagram_v_01\bin\Debug\netcoreapp2.0\Instagram_v_01.runtimeconfig.dev.json
+D:\C#\less_56\Less_56\Instagram_v_01\Instagram_v_01\bin\Debug\netcoreapp2.0\Instagram_v_01.dll
+D:\C#\less_56\Less_56\Instagram_v_01\Instagram_v_01\bin\Debug\netcoreapp2.0\Instagram_v_01.pdb
+D:\C#\less_56\Less_56\Instagram_v_01\Instagram_v_01\obj\Debug\netcoreapp2.0\Instagram_v_01.csprojAssemblyReference.cache
+D:\C#\less_56\Less_56\Instagram_v_01\Instagram_v_01\obj\Debug\netcoreapp2.0\Instagram_v_01.csproj.CoreCompileInputs.cache
+D:\C#\less_56\Less_56\Instagram_v_01\Instagram_v_01\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+D:\C#\less_56\Less_56\Instagram_v_01\Instagram_v_01\obj\Debug\netcoreapp2.0\Instagram_v_01.AssemblyInfoInputs.cache
+D:\C#\less_56\Less_56\Instagram_v_01\Instagram_v_01\obj\Debug\netcoreapp2.0\Instagram_v_01.AssemblyInfo.cs
+D:\C#\less_56\Less_56\Instagram_v_01\Instagram_v_01\obj\Debug\netcoreapp2.0\Instagram_v_01.dll
+D:\C#\less_56\Less_56\Instagram_v_01\Instagram_v_01\obj\Debug\netcoreapp2.0\Instagram_v_01.pdb
