@@ -1,11 +1,53 @@
 ﻿@model IndexViewModel
 @{
-    ViewData["Title"] = "Profile";
+    ViewData["Title"] = Model.Name;
     ViewData.AddActivePage(ManageNavPages.Index);
 }
 
 <h4>@ViewData["Title"]</h4>
-@Html.Partial("_StatusMessage", Model.StatusMessage)
+<p>Пол @Model.Sex</p>
+
+<div style="width: 400px; position: absolute; top: -60px; right: 0px; font-size: 16px; border-left: 1px solid silver; padding-left: 15px; padding-top: 25px; ">
+    <div style="display: inline-block; margin-top: -15px;">
+        <img style="border: white 1px solid;box-shadow: 0px 2px 15px -1px rgba(0,0,0,0.75); display: inline-block; width: 100px; height: 100px; border-radius: 50%; margin-right: 15px; margin-top: -32px;" src="@Model.AvatarPath"/>
+    </div>
+    <div style="display: inline-block;">
+        <span style="font-weight: bold">Подписчики : <span class="text-center">@Model.SubscribersCount</span></span>
+        <br/>
+        <span style="font-weight: bold">Подписки : <span class="text-center">@Model.SubscriptionCount</span></span>
+        <br/>
+        <span style="font-weight: bold">Постов : <span class="text-center">@Model.PostsCount</span></span>
+    </div>
+    <div style="margin-top: 15px; padding-top: 15px; border-top: 1px solid silver;">
+        @if (Model.PostsCount < 9)
+        {
+            for (int i = 0; i < Model.PostsCount; i++)
+             {
+                 <div style="display: inline-block; margin: 7.5px; border-radius: 5%; padding: 5px; border: 1px solid silver; box-shadow: 0px 3px 18px -1px rgba(0, 0, 0, 0.75); background: rgba(0, 0, 0, 0.01);">
+                     <img style="width: 85px; height: 85px; border-radius: 5%;" src="@Model.Posts[i].ImageSource"/>
+                     <p style="margin: 5px 0 0 5px;">Лайков @Model.Posts[i].LikeCount</p>
+                 </div>
+             }
+        }
+        else
+        {
+            for (int i = 0; i < 9; i++)
+            {
+                <div style="display: inline-block; margin: 7.5px; border-radius: 5%; padding: 5px; border: 1px solid silver; box-shadow: 0px 3px 18px -1px rgba(0, 0, 0, 0.75); background: rgba(0, 0, 0, 0.01);">
+                    <img style="width: 85px; height: 85px; border-radius: 5%;" src="@Model.Posts[i].ImageSource"/>
+                    <p style="margin-top: 5px;">Лайков @Model.Posts[i].LikeCount</p>
+                </div>
+            }
+        }
+
+
+
+    </div>
+    <div style="border-top: 1px solid silver; margin-top: 15px; padding-top: 15px;">
+        <a class="btn btn-default text-center" asp-action="CreatePost" asp-controller="Post"> Создать пост</a>
+    </div>
+</div>
+
 <div class="row">
     <div class="col-md-6">
         <form method="post">

@@ -4,6 +4,7 @@
     <UserSecretsId>aspnet-Instagram_v_01-14716CF3-B808-47F5-9736-C141FDAE62F8</UserSecretsId>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="HttpPostedFileHelper" Version="1.2.0" />
     <PackageReference Include="Microsoft.AspNet.Identity.Core" Version="2.2.2" />
     <PackageReference Include="Microsoft.AspNet.Identity.EntityFramework" Version="2.2.2" />
     <PackageReference Include="Microsoft.AspNet.Identity.Owin" Version="2.2.2" />
@@ -21,5 +22,8 @@
     <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.3" />
     <DotNetCliToolReference Include="Microsoft.Extensions.SecretManager.Tools" Version="2.0.2" />
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.4" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="UserPhotos" />
   </ItemGroup>
 </Project>

@@ -11,15 +11,25 @@
         <e p="Controllers" t="Include">
           <e p="AccountController.cs" t="Include" />
           <e p="HomeController.cs" t="Include" />
+          <e p="LikeController.cs" t="Include" />
           <e p="ManageController.cs" t="Include" />
+          <e p="PostController.cs" t="Include" />
         </e>
         <e p="Data" t="Include">
           <e p="ApplicationDbContext.cs" t="Include" />
           <e p="Migrations" t="Include">
             <e p="00000000000000_CreateIdentitySchema.cs" t="Include" />
             <e p="00000000000000_CreateIdentitySchema.Designer.cs" t="Include" />
-            <e p="20181011040004_Initial_Instagram.cs" t="Include" />
-            <e p="20181011040004_Initial_Instagram.Designer.cs" t="Include" />
+            <e p="20181011084857_Initial_Instagram.cs" t="Include" />
+            <e p="20181011084857_Initial_Instagram.Designer.cs" t="Include" />
+            <e p="20181011085723_Initial_Instagram_foreignKeys.cs" t="Include" />
+            <e p="20181011085723_Initial_Instagram_foreignKeys.Designer.cs" t="Include" />
+            <e p="20181011091619_AddFields_Fk.cs" t="Include" />
+            <e p="20181011091619_AddFields_Fk.Designer.cs" t="Include" />
+            <e p="20181011232425_dateTimefield.cs" t="Include" />
+            <e p="20181011232425_dateTimefield.Designer.cs" t="Include" />
+            <e p="20181012055221_V03.cs" t="Include" />
+            <e p="20181012055221_V03.Designer.cs" t="Include" />
             <e p="ApplicationDbContextModelSnapshot.cs" t="Include" />
           </e>
         </e>
@@ -40,6 +50,7 @@
           </e>
           <e p="ApplicationUser.cs" t="Include" />
           <e p="ErrorViewModel.cs" t="Include" />
+          <e p="LikeViewModel.cs" t="Include" />
           <e p="ManageViewModels" t="Include">
             <e p="ChangePasswordViewModel.cs" t="Include" />
             <e p="EnableAuthenticatorViewModel.cs" t="Include" />
@@ -51,10 +62,11 @@
             <e p="TwoFactorAuthenticationViewModel.cs" t="Include" />
           </e>
           <e p="PostModels" t="Include">
+            <e p="CommentModel.cs" t="Include" />
             <e p="LikeModel.cs" t="Include" />
-            <e p="PostCommentModel.cs" t="Include" />
-            <e p="UserPostModel.cs" t="Include" />
+            <e p="PostModel.cs" t="Include" />
           </e>
+          <e p="PostViewModel.cs" t="Include" />
           <e p="Subscription.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
@@ -70,9 +82,11 @@
         </e>
         <e p="Services" t="Include">
           <e p="EmailSender.cs" t="Include" />
+          <e p="FileUploadService.cs" t="Include" />
           <e p="IEmailSender.cs" t="Include" />
         </e>
         <e p="Startup.cs" t="Include" />
+        <e p="UserPhotos" t="Include" />
         <e p="Views" t="Include">
           <e p="_ViewImports.cshtml" t="Include" />
           <e p="_ViewStart.cshtml" t="Include" />
@@ -113,9 +127,12 @@
             <e p="ShowRecoveryCodes.cshtml" t="Include" />
             <e p="TwoFactorAuthentication.cshtml" t="Include" />
           </e>
+          <e p="Post" t="Include">
+            <e p="CreatePost.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+          </e>
           <e p="Shared" t="Include">
             <e p="_Layout.cshtml" t="Include" />
-            <e p="_LoginPartial.cshtml" t="Include" />
             <e p="_ValidationScriptsPartial.cshtml" t="Include" />
             <e p="Error.cshtml" t="Include" />
           </e>
@@ -127,10 +144,34 @@
           </e>
           <e p="favicon.ico" t="Include" />
           <e p="images" t="Include">
+            <e p="Alexey" t="Include">
+              <e p="14963249_993315267481788_8072967920226565909_n.jpg" t="Include" />
+              <e p="17_1804_oboi_parusnik_1920x1080.jpg" t="Include" />
+              <e p="elitefon.ru_26172.jpg" t="Include" />
+              <e p="more_parusnik_sudno_zakat_106754_1920x1080.jpg" t="Include" />
+              <e p="sedv.jpg" t="Include" />
+              <e p="SodeboDec2016Record.jpg" t="Include" />
+            </e>
+            <e p="asdasdasd" t="Include">
+              <e p="SodeboDec2016Record.jpg" t="Include" />
+            </e>
             <e p="banner1.svg" t="Include" />
             <e p="banner2.svg" t="Include" />
             <e p="banner3.svg" t="Include" />
             <e p="banner4.svg" t="Include" />
+            <e p="like.png" t="Include" />
+            <e p="TestUser" t="Include">
+              <e p="14963249_993315267481788_8072967920226565909_n.jpg" t="Include" />
+              <e p="17_1804_oboi_parusnik_1920x1080.jpg" t="Include" />
+              <e p="zair_kruglij_flag.png" t="Include" />
+            </e>
+            <e p="Алексей" t="Include">
+              <e p="14963249_993315267481788_8072967920226565909_n.jpg" t="Include" />
+              <e p="17_1804_oboi_parusnik_1920x1080.jpg" t="Include" />
+              <e p="more_parusnik_sudno_zakat_106754_1920x1080.jpg" t="Include" />
+            </e>
+            <e p="бктп запрос (1).xlsx" t="Include" />
+            <e p="бктп запрос.xlsx" t="Include" />
           </e>
           <e p="js" t="Include">
             <e p="site.js" t="Include" />

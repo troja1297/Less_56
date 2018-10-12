@@ -26,6 +26,10 @@
   "frameworks": {
     "netcoreapp2.0": {
       "dependencies": {
+        "HttpPostedFileHelper": {
+          "target": "Package",
+          "version": "[1.2.0, )"
+        },
         "Microsoft.AspNet.Identity.Core": {
           "target": "Package",
           "version": "[2.2.2, )"

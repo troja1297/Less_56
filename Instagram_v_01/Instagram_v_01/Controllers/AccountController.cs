@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
@@ -13,6 +14,7 @@ using Microsoft.Extensions.Options;
 using Instagram_v_01.Models;
 using Instagram_v_01.Models.AccountViewModels;
 using Instagram_v_01.Services;
+using Microsoft.AspNetCore.Hosting;
 
 namespace Instagram_v_01.Controllers
 {
@@ -24,17 +26,23 @@ namespace Instagram_v_01.Controllers
         private readonly SignInManager<ApplicationUser> _signInManager;
         private readonly IEmailSender _emailSender;
         private readonly ILogger _logger;
+        private IHostingEnvironment _environment;
+        private FileUploadService _fileUploadService;
 
         public AccountController(
             UserManager<ApplicationUser> userManager,
             SignInManager<ApplicationUser> signInManager,
             IEmailSender emailSender,
-            ILogger<AccountController> logger)
+            ILogger<AccountController> logger,
+            FileUploadService fileUploadService,
+            IHostingEnvironment environment)
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _emailSender = emailSender;
             _logger = logger;
+            _fileUploadService = fileUploadService;
+            _environment = environment;
         }
 
         public enum UserSex
@@ -218,26 +226,34 @@ namespace Instagram_v_01.Controllers
             return View();
         }
 
-        public void SelectList()
-        {
-            var enumData = from UserSex e in Enum.GetValues(typeof(UserSex))
-                select new
-                {
-                    ID = (int)e,
-                    Name = e.ToString()
-                };
-            ViewBag.EnumList = new SelectList(enumData,"ID","Name");
-        }
+
+
         [HttpPost]
         [AllowAnonymous]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Register(RegisterViewModel model, string returnUrl = null)
         {
+
             SelectList();
             ViewData["ReturnUrl"] = returnUrl;
+
             if (ModelState.IsValid)
             {
-                var user = new ApplicationUser { UserName = model.Email, Email = model.Email, Name = model.Name, PhoneNumber = model.Phone, UserAbout = model.UserAbout, Sex = model.Sex == 1 ? "Woman" :"Man"};
+                string path = Path.Combine(
+                    _environment.WebRootPath,
+                    $"images\\{model.Name}\\");
+
+                var userAvatar = $"/images/{model.Name}/{model.UserAvatar.FileName}";
+                _fileUploadService.Upload(path, model.UserAvatar.FileName, model.UserAvatar);
+                var user = new ApplicationUser {
+                    UserName = model.Email,
+                    Email = model.Email,
+                    Name = model.Name,
+                    PhoneNumber = model.Phone,
+                    UserAbout = model.UserAbout,
+                    Sex = model.Sex == 1 ? "Woman" :"Man",
+                    UserPhoto = userAvatar
+                };
                 var result = await _userManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {
@@ -253,8 +269,6 @@ namespace Instagram_v_01.Controllers
                 }
                 AddErrors(result);
             }
-
-            // If we got this far, something failed, redisplay form
             return View(model);
         }
 
@@ -452,6 +466,16 @@ namespace Instagram_v_01.Controllers
         public IActionResult AccessDenied()
         {
             return View();
+        }
+        public void SelectList()
+        {
+            var enumData = from UserSex e in Enum.GetValues(typeof(UserSex))
+                select new
+                {
+                    ID = (int)e,
+                    Name = e.ToString()
+                };
+            ViewBag.EnumList = new SelectList(enumData,"ID","Name");
         }
 
         #region Helpers

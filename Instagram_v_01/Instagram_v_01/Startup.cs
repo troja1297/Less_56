@@ -30,11 +30,12 @@ namespace Instagram_v_01
 
             services.AddDbContext<ApplicationDbContext>(options =>
 
-                options.UseSqlServer(@"Server=.\SQLEXPRESS;Database=Instagram_v_01;Trusted_Connection=True;"));
+                options.UseSqlServer(@"Server=.\SQLEXPRESS;Database=Instagram_v_03;Trusted_Connection=True;"));
 
             services.AddIdentity<ApplicationUser, IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
+            services.AddTransient<FileUploadService>();
 
 
             //Password Strength Setting
@@ -96,7 +97,7 @@ namespace Instagram_v_01
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    template: "{controller=Post}/{action=Index}/{id?}");
             });
         }
     }

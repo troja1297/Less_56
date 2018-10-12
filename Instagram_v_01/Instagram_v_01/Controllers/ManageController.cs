@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Text.Encodings.Web;
 using System.Threading.Tasks;
+using Instagram_v_01.Data;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -12,6 +13,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Instagram_v_01.Models;
 using Instagram_v_01.Models.ManageViewModels;
+using Instagram_v_01.Models.PostModels;
 using Instagram_v_01.Services;
 
 namespace Instagram_v_01.Controllers
@@ -23,7 +25,7 @@ namespace Instagram_v_01.Controllers
 
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly SignInManager<ApplicationUser> _signInManager;
-        private readonly IEmailSender _emailSender;
+        private readonly ApplicationDbContext _context;
         private readonly ILogger _logger;
         private readonly UrlEncoder _urlEncoder;
 
@@ -35,13 +37,14 @@ namespace Instagram_v_01.Controllers
           SignInManager<ApplicationUser> signInManager,
           IEmailSender emailSender,
           ILogger<ManageController> logger,
-          UrlEncoder urlEncoder)
+          UrlEncoder urlEncoder,
+          ApplicationDbContext context)
         {
             _userManager = userManager;
             _signInManager = signInManager;
-            _emailSender = emailSender;
             _logger = logger;
             _urlEncoder = urlEncoder;
+            _context = context;
         }
 
         [TempData]
@@ -55,14 +58,26 @@ namespace Instagram_v_01.Controllers
             {
                 throw new ApplicationException($"Unable to load user with ID '{_userManager.GetUserId(User)}'.");
             }
-
+            var myposts = _context.Posts.OrderBy(p => p.PostDate).Where(p => p.UserId == user.Id).ToList();
+            int postsCount = myposts.Count();
+            var subsriptions = _context.Subscriptions.Select(s => s.UserId == s.User.Id).ToList();
+            int subscriptionCount = subsriptions.Count;
+            var subscribers = _context.Subscriptions.Select(s => s.User.Id == s.SubscriberId).ToList();
+            int subscribersCount = subscribers.Count;
             var model = new IndexViewModel
             {
                 Username = user.UserName,
                 Email = user.Email,
                 PhoneNumber = user.PhoneNumber,
                 IsEmailConfirmed = user.EmailConfirmed,
-                StatusMessage = StatusMessage
+                StatusMessage = StatusMessage,
+                AvatarPath = user.UserPhoto,
+                Name = user.Name,
+                SubscriptionCount = subscriptionCount,
+                SubscribersCount = subscribersCount,
+                PostsCount = postsCount,
+                Posts = myposts,
+                Sex = user.Sex
             };
 
             return View(model);

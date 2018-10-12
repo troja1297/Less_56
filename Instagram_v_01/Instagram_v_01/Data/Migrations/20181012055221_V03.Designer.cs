@@ -11,8 +11,8 @@ using System;
 namespace Instagram_v_01.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20181011040004_Initial_Instagram")]
-    partial class Initial_Instagram
+    [Migration("20181012055221_V03")]
+    partial class V03
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -78,6 +78,84 @@ namespace Instagram_v_01.Data.Migrations
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
 
                     b.ToTable("AspNetUsers");
+                });
+
+            modelBuilder.Entity("Instagram_v_01.Models.PostModels.CommentModel", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("Comment");
+
+                    b.Property<string>("PostId");
+
+                    b.Property<string>("UserId");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("PostId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Commentaries");
+                });
+
+            modelBuilder.Entity("Instagram_v_01.Models.PostModels.LikeModel", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("PostId");
+
+                    b.Property<string>("UserId");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("PostId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Likes");
+                });
+
+            modelBuilder.Entity("Instagram_v_01.Models.PostModels.PostModel", b =>
+                {
+                    b.Property<string>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("Description");
+
+                    b.Property<string>("ImageSource");
+
+                    b.Property<int>("LikeCount");
+
+                    b.Property<DateTime>("PostDate");
+
+                    b.Property<string>("UserId");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Posts");
+                });
+
+            modelBuilder.Entity("Instagram_v_01.Models.Subscription", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("SubscriberId");
+
+                    b.Property<string>("UserId");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("SubscriberId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Subscriptions");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -186,6 +264,46 @@ namespace Instagram_v_01.Data.Migrations
                     b.HasKey("UserId", "LoginProvider", "Name");
 
                     b.ToTable("AspNetUserTokens");
+                });
+
+            modelBuilder.Entity("Instagram_v_01.Models.PostModels.CommentModel", b =>
+                {
+                    b.HasOne("Instagram_v_01.Models.PostModels.PostModel", "Post")
+                        .WithMany()
+                        .HasForeignKey("PostId");
+
+                    b.HasOne("Instagram_v_01.Models.ApplicationUser", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId");
+                });
+
+            modelBuilder.Entity("Instagram_v_01.Models.PostModels.LikeModel", b =>
+                {
+                    b.HasOne("Instagram_v_01.Models.PostModels.PostModel", "Post")
+                        .WithMany()
+                        .HasForeignKey("PostId");
+
+                    b.HasOne("Instagram_v_01.Models.ApplicationUser", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId");
+                });
+
+            modelBuilder.Entity("Instagram_v_01.Models.PostModels.PostModel", b =>
+                {
+                    b.HasOne("Instagram_v_01.Models.ApplicationUser", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId");
+                });
+
+            modelBuilder.Entity("Instagram_v_01.Models.Subscription", b =>
+                {
+                    b.HasOne("Instagram_v_01.Models.ApplicationUser", "Subscriber")
+                        .WithMany()
+                        .HasForeignKey("SubscriberId");
+
+                    b.HasOne("Instagram_v_01.Models.ApplicationUser", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

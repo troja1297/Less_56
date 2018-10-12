@@ -14,12 +14,5 @@ namespace Instagram_v_01.Models
         public string UserPhoto { get; set; }
         public string Name { get; set; }
         public string Sex { get; set; }
-
-        public IEnumerable<Subscription> Subscriptions { get; set; }
-        public IEnumerable<PostCommentModel> PostCommentModels { get; set; }
-        public IEnumerable<UserPostModel> UserPostModels { get; set; }
-
-
-
     }
 }

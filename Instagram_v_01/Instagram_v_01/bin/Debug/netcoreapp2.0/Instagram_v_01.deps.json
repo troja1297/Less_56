@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "49be1919953b606feebf58ff5a692755e6da528c"
+    "signature": "147c35a32cc6d7b3b2afb0adaa1024942aa5724b"
   },
   "compilationOptions": {
     "defines": [
@@ -24,6 +24,7 @@
     ".NETCoreApp,Version=v2.0": {
       "Instagram_v_01/1.0.0": {
         "dependencies": {
+          "HttpPostedFileHelper": "1.2.0",
           "Microsoft.AspNet.Identity.Core": "2.2.2",
           "Microsoft.AspNet.Identity.EntityFramework": "2.2.2",
           "Microsoft.AspNet.Identity.Owin": "2.2.2",
@@ -59,6 +60,21 @@
         "compile": {
           "lib/net45/EntityFramework.SqlServer.dll": {},
           "lib/net45/EntityFramework.dll": {}
+        }
+      },
+      "HttpPostedFileHelper/1.2.0": {
+        "dependencies": {
+          "Microsoft.WindowsAzure.ConfigurationManager": "3.2.3",
+          "WindowsAzure.Storage": "8.1.4"
+        },
+        "runtime": {
+          "lib/net452/HttpPostedFileHelper.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/net452/HttpPostedFileHelper.dll": {}
         }
       },
       "Libuv/1.10.0": {
@@ -3085,6 +3101,17 @@
           "ref/netstandard2.0/Microsoft.Win32.Registry.dll": {}
         }
       },
+      "Microsoft.WindowsAzure.ConfigurationManager/3.2.3": {
+        "runtime": {
+          "lib/net40/Microsoft.WindowsAzure.Configuration.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.2.3.0"
+          }
+        },
+        "compile": {
+          "lib/net40/Microsoft.WindowsAzure.Configuration.dll": {}
+        }
+      },
       "Newtonsoft.Json/10.0.1": {
         "dependencies": {
           "Microsoft.CSharp": "4.4.0",
@@ -4994,6 +5021,13 @@
       "path": "entityframework/6.1.0",
       "hashPath": "entityframework.6.1.0.nupkg.sha512"
     },
+    "HttpPostedFileHelper/1.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9lkci8vLJVLCGp9cg17CaErEoNFbaFKIDCpBoN5IzM9OetNjy4x9mRZlR6nkc58f3XUyDybLXbQvsOvnL5dZ8Q==",
+      "path": "httppostedfilehelper/1.2.0",
+      "hashPath": "httppostedfilehelper.1.2.0.nupkg.sha512"
+    },
     "Libuv/1.10.0": {
       "type": "package",
       "serviceable": true,
@@ -6253,6 +6287,13 @@
       "sha512": "sha512-dA36TlNVn/XfrZtmf0fiI/z1nd3Wfp2QVzTdj26pqgP9LFWq0i1hYEUAW50xUjGFYn1+/cP3KGuxT2Yn1OUNBQ==",
       "path": "microsoft.win32.registry/4.4.0",
       "hashPath": "microsoft.win32.registry.4.4.0.nupkg.sha512"
+    },
+    "Microsoft.WindowsAzure.ConfigurationManager/3.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SM8X5oS6dLlFA/7I+IxLUriU8B6KLnUG7Pu5gcnaiIluCHPmZCvio/ItGKLigAI7II2EegjEyERvxUbbuozGxA==",
+      "path": "microsoft.windowsazure.configurationmanager/3.2.3",
+      "hashPath": "microsoft.windowsazure.configurationmanager.3.2.3.nupkg.sha512"
     },
     "Newtonsoft.Json/10.0.1": {
       "type": "package",

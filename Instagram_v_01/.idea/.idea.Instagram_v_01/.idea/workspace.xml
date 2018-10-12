@@ -1,7 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="efaabc0b-e169-43cf-bf90-226d314d04cd" name="Default" comment="" />
+    <list default="true" id="efaabc0b-e169-43cf-bf90-226d314d04cd" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Instagram_v_01/Controllers/PostController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Instagram_v_01/Models/LikeViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Instagram_v_01/Models/PostViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Instagram_v_01/Services/FileUploadService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Instagram_v_01/Views/Post/CreatePost.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Instagram_v_01/Views/Post/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Instagram_v_01/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Instagram_v_01/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Instagram_v_01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Instagram_v_01/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Instagram_v_01/Controllers/AccountController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Instagram_v_01/Controllers/AccountController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Instagram_v_01/Controllers/ManageController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Instagram_v_01/Controllers/ManageController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Instagram_v_01/Data/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Instagram_v_01/Data/ApplicationDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Instagram_v_01/Data/Migrations/20181011040004_Initial_Instagram.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Instagram_v_01/Data/Migrations/20181011040004_Initial_Instagram.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Instagram_v_01/Data/Migrations/ApplicationDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Instagram_v_01/Data/Migrations/ApplicationDbContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Instagram_v_01/Instagram_v_01.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Instagram_v_01/Instagram_v_01.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Instagram_v_01/Models/AccountViewModels/RegisterViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Instagram_v_01/Models/AccountViewModels/RegisterViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Instagram_v_01/Models/ApplicationUser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Instagram_v_01/Models/ApplicationUser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Instagram_v_01/Models/ManageViewModels/IndexViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Instagram_v_01/Models/ManageViewModels/IndexViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Instagram_v_01/Models/PostModels/LikeModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Instagram_v_01/Models/PostModels/LikeModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Instagram_v_01/Models/PostModels/PostCommentModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Instagram_v_01/Models/PostModels/CommentModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Instagram_v_01/Models/PostModels/UserPostModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Instagram_v_01/Models/PostModels/PostModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Instagram_v_01/Models/Subscription.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Instagram_v_01/Models/Subscription.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Instagram_v_01/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Instagram_v_01/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Instagram_v_01/Views/Account/Register.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Instagram_v_01/Views/Account/Register.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Instagram_v_01/Views/Manage/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Instagram_v_01/Views/Manage/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Instagram_v_01/Views/Manage/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Instagram_v_01/Views/Manage/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Instagram_v_01/Views/Manage/_ManageNav.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Instagram_v_01/Views/Manage/_ManageNav.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Instagram_v_01/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Instagram_v_01/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Instagram_v_01/Views/Shared/_LoginPartial.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Instagram_v_01/bin/Debug/netcoreapp2.0/Instagram_v_01.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Instagram_v_01/bin/Debug/netcoreapp2.0/Instagram_v_01.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Instagram_v_01/bin/Debug/netcoreapp2.0/Instagram_v_01.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Instagram_v_01/bin/Debug/netcoreapp2.0/Instagram_v_01.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Instagram_v_01/bin/Debug/netcoreapp2.0/Instagram_v_01.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Instagram_v_01/bin/Debug/netcoreapp2.0/Instagram_v_01.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Instagram_v_01/obj/Debug/netcoreapp2.0/Instagram_v_01.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Instagram_v_01/obj/Debug/netcoreapp2.0/Instagram_v_01.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Instagram_v_01/obj/Debug/netcoreapp2.0/Instagram_v_01.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Instagram_v_01/obj/Debug/netcoreapp2.0/Instagram_v_01.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Instagram_v_01/obj/Debug/netcoreapp2.0/Instagram_v_01.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Instagram_v_01/obj/Debug/netcoreapp2.0/Instagram_v_01.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Instagram_v_01/obj/Debug/netcoreapp2.0/Instagram_v_01.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Instagram_v_01/obj/Debug/netcoreapp2.0/Instagram_v_01.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Instagram_v_01/obj/Debug/netcoreapp2.0/Instagram_v_01.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Instagram_v_01/obj/Debug/netcoreapp2.0/Instagram_v_01.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Instagram_v_01/obj/Instagram_v_01.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Instagram_v_01/obj/Instagram_v_01.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Instagram_v_01/obj/Instagram_v_01.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Instagram_v_01/obj/Instagram_v_01.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Instagram_v_01/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Instagram_v_01/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Instagram_v_01/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Instagram_v_01/obj/project.packagespec.json" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,193 +52,226 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="AccountController.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Instagram_v_01/Controllers/AccountController.cs">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="PostController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Instagram_v_01/Controllers/PostController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="223" column="26" lean-forward="true" selection-start-line="223" selection-start-column="26" selection-end-line="223" selection-end-column="26" />
+            <state relative-caret-position="570">
+              <caret line="49" column="26" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
               <folding>
-                <marker date="1539229535224" expanded="false" signature="6:501" ph="..." />
-                <marker date="1539229535224" expanded="true" signature="539:17818" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="642:17816" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="1114:1288" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="1317:1372" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="1556:1811" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="1985:3306" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="2078:3195" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="2109:2271" ph="/* This doesn't count login failures towards account lockout ... */" />
-                <marker date="1539229535224" expanded="true" signature="2452:2606" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="2652:2792" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="2832:2998" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="3019:3181" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="3446:3952" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="3655:3782" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="4157:5480" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="4204:4268" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="4382:4524" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="4807:4980" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="5021:5197" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="5214:5470" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="5612:6033" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="5820:5947" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="6239:7477" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="6286:6350" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="6464:6591" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="6800:6985" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="7021:7197" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="7214:7467" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="7560:7607" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="7714:7834" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="7868:8171" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="7999:8091" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="8350:9607" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="8469:9496" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="8813:9447" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="9712:9912" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="10077:10428" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="10587:12009" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="10634:10797" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="10900:10984" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="11272:11451" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="11487:11573" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="11590:11999" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="12211:13444" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="12257:13331" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="12469:12622" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="12823:13282" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="12958:13264" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="13570:14105" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="13628:13735" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="13830:13950" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="14195:14242" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="14409:15578" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="14455:15467" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="14633:14835" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="14853:15012" ph="/* For more information on how to enable account confirmation and password reset please ... */" />
-                <marker date="1539229535224" expanded="true" signature="15680:15727" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="15834:16107" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="15874:15997" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="16272:16955" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="16319:16383" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="16486:16651" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="16783:16887" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="17056:17103" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="17167:17214" ph="{...}" />
-                <marker date="1539229535224" expanded="false" signature="17224:17810" ph="Helpers" />
-                <marker date="1539229535224" expanded="true" signature="17294:17466" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="17353:17456" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="17531:17790" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="17584:17656" ph="{...}" />
-                <marker date="1539229535224" expanded="true" signature="17673:17780" ph="{...}" />
+                <marker date="1539324600309" expanded="false" signature="6:347" ph="..." />
+                <marker date="1539324600309" expanded="true" signature="385:2639" ph="{...}" />
+                <marker date="1539324600309" expanded="true" signature="432:2637" ph="{...}" />
+                <marker date="1539324600309" expanded="true" signature="904:1088" ph="{...}" />
+                <marker date="1539324600309" expanded="true" signature="1150:1323" ph="{...}" />
+                <marker date="1539324600309" expanded="true" signature="1372:1573" ph="{...}" />
+                <marker date="1539324600309" expanded="true" signature="1634:1681" ph="{...}" />
+                <marker date="1539324600309" expanded="true" signature="1780:2631" ph="{...}" />
+                <marker date="1539324600309" expanded="true" signature="1888:2593" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Register.cshtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Instagram_v_01/Views/Account/Register.cshtml">
+      <file leaf-file-name="Index.cshtml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Instagram_v_01/Views/Post/Index.cshtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
+            <state relative-caret-position="39">
+              <caret line="27" column="55" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
               <folding>
-                <marker date="1539229686824" expanded="true" signature="25:65" ph="@..." />
-                <marker date="1539229686824" expanded="true" signature="96:2555" ph="&lt;div.../&gt;" />
-                <marker date="1539229686824" expanded="true" signature="118:2548" ph="&lt;div.../&gt;" />
-                <marker date="1539229686824" expanded="true" signature="149:2537" ph="&lt;form.../&gt;" />
-                <marker date="1539229686824" expanded="true" signature="362:590" ph="&lt;div.../&gt;" />
-                <marker date="1539229686824" expanded="true" signature="603:845" ph="&lt;div.../&gt;" />
-                <marker date="1539229686824" expanded="true" signature="858:1127" ph="&lt;div.../&gt;" />
-                <marker date="1539229686824" expanded="true" signature="1140:1383" ph="&lt;div.../&gt;" />
-                <marker date="1539229686824" expanded="true" signature="1396:1674" ph="&lt;div.../&gt;" />
-                <marker date="1539229686824" expanded="true" signature="1687:1918" ph="&lt;div.../&gt;" />
-                <marker date="1539229686824" expanded="true" signature="1931:2171" ph="&lt;div.../&gt;" />
-                <marker date="1539229686824" expanded="true" signature="2184:2445" ph="&lt;div.../&gt;" />
-                <marker date="1539229686824" expanded="true" signature="2557:2635" ph="@{...}" />
+                <marker date="1539336887399" expanded="false" signature="7:66" ph="..." />
+                <marker date="1539336887399" expanded="true" signature="259:320" ph="@..." />
+                <marker date="1539336887399" expanded="true" signature="322:3515" ph="&lt;div.../&gt;" />
+                <marker date="1539336887399" expanded="true" signature="403:3333" ph="&lt;div.../&gt;" />
+                <marker date="1539336887399" expanded="true" signature="434:3321" ph="@..." />
+                <marker date="1539336887399" expanded="true" signature="468:3321" ph="{...}" />
+                <marker date="1539336887399" expanded="true" signature="491:3311" ph="&lt;div.../&gt;" />
+                <marker date="1539336887399" expanded="true" signature="597:1073" ph="&lt;div.../&gt;" />
+                <marker date="1539336887399" expanded="true" signature="704:1050" ph="&lt;a.../&gt;" />
+                <marker date="1539336887399" expanded="true" signature="1090:1196" ph="&lt;div.../&gt;" />
+                <marker date="1539336887399" expanded="true" signature="1213:2723" ph="&lt;div.../&gt;" />
+                <marker date="1539336887399" expanded="true" signature="1300:2698" ph="@..." />
+                <marker date="1539336887399" expanded="true" signature="1336:2281" ph="{...}" />
+                <marker date="1539336887399" expanded="true" signature="1383:2116" ph="&lt;form.../&gt;" />
+                <marker date="1539336887399" expanded="true" signature="2306:2698" ph="{...}" />
+                <marker date="1539336887399" expanded="true" signature="2353:2676" ph="&lt;a.../&gt;" />
+                <marker date="1539336887399" expanded="true" signature="2740:3132" ph="&lt;div.../&gt;" />
+                <marker date="1539336887399" expanded="true" signature="2827:3109" ph="&lt;span.../&gt;" />
+                <marker date="1539336887399" expanded="true" signature="2968:3081" ph="&lt;span.../&gt;" />
+                <marker date="1539336887399" expanded="true" signature="3149:3292" ph="&lt;div.../&gt;" />
+                <marker date="1539336887399" expanded="true" signature="3338:3507" ph="&lt;div.../&gt;" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegisterViewModel.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Instagram_v_01/Models/AccountViewModels/RegisterViewModel.cs">
+      <file leaf-file-name="LikeController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Instagram_v_01/Controllers/LikeController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="510">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
               <folding>
-                <marker date="1539229523793" expanded="false" signature="6:141" ph="..." />
-                <marker date="1539229523793" expanded="true" signature="192:1139" ph="{...}" />
-                <marker date="1539229523793" expanded="true" signature="229:1137" ph="{...}" />
+                <marker date="1539336616051" expanded="true" signature="6:176" ph="..." />
+                <marker date="1539336616051" expanded="true" signature="214:1068" ph="{...}" />
+                <marker date="1539336616051" expanded="true" signature="261:1066" ph="{...}" />
+                <marker date="1539336616051" expanded="true" signature="382:434" ph="{...}" />
+                <marker date="1539336616051" expanded="true" signature="521:1060" ph="{...}" />
+                <marker date="1539336616051" expanded="true" signature="677:763" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ApplicationUser.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Instagram_v_01/Models/ApplicationUser.cs">
+      <file leaf-file-name="CreatePost.cshtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Instagram_v_01/Views/Post/CreatePost.cshtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="76" />
+            <state relative-caret-position="180">
+              <caret line="12" column="130" selection-start-line="12" selection-start-column="83" selection-end-line="12" selection-end-column="130" />
               <folding>
-                <marker date="1539232550711" expanded="false" signature="6:173" ph="..." />
-                <marker date="1539232550711" expanded="true" signature="206:760" ph="{...}" />
-                <marker date="1539232550711" expanded="true" signature="352:758" ph="{...}" />
+                <marker date="1539300176509" expanded="true" signature="62:119" ph="@..." />
+                <marker date="1539300176509" expanded="true" signature="198:1394" ph="&lt;div.../&gt;" />
+                <marker date="1539300176509" expanded="true" signature="397:1383" ph="&lt;form.../&gt;" />
+                <marker date="1539300176509" expanded="true" signature="637:680" ph="&lt;div.../&gt;" />
+                <marker date="1539300176509" expanded="true" signature="693:980" ph="&lt;div.../&gt;" />
+                <marker date="1539300176509" expanded="true" signature="993:1287" ph="&lt;div.../&gt;" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ApplicationDbContext.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Instagram_v_01/Data/ApplicationDbContext.cs">
+      <file leaf-file-name="CommentModel.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Instagram_v_01/Models/PostModels/CommentModel.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="255">
+              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
               <folding>
-                <marker date="1539235105121" expanded="true" signature="6:259" ph="..." />
-                <marker date="1539235105121" expanded="true" signature="290:1106" ph="{...}" />
-                <marker date="1539235105121" expanded="true" signature="367:1104" ph="{...}" />
-                <marker date="1539235105121" expanded="true" signature="684:704" ph="{...}" />
-                <marker date="1539235105121" expanded="true" signature="775:1098" ph="{...}" />
-                <marker date="1539235105121" expanded="true" signature="841:1087" ph="/* Customize the ASP.NET Identity model and override the defaults if needed. ... */" />
+                <marker date="1539336224362" expanded="false" signature="6:85" ph="..." />
+                <marker date="1539336224362" expanded="true" signature="129:511" ph="{...}" />
+                <marker date="1539336224362" expanded="true" signature="161:509" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Subscription.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Instagram_v_01/Models/Subscription.cs">
+      <file leaf-file-name="LikeModel.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Instagram_v_01/Models/PostModels/LikeModel.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="60">
+              <caret line="6" column="26" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="26" />
               <folding>
-                <marker date="1539235088781" expanded="true" signature="66:310" ph="{...}" />
-                <marker date="1539235088781" expanded="true" signature="98:308" ph="{...}" />
+                <marker date="1539320668341" expanded="false" signature="6:140" ph="..." />
+                <marker date="1539320668341" expanded="true" signature="184:520" ph="{...}" />
+                <marker date="1539320668341" expanded="true" signature="213:518" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserPostModel.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Instagram_v_01/Models/PostModels/UserPostModel.cs">
+      <file leaf-file-name="PostModel.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Instagram_v_01/Models/PostModels/PostModel.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="76" />
+            <state relative-caret-position="240">
+              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
               <folding>
-                <marker date="1539232803881" expanded="true" signature="77:484" ph="{...}" />
-                <marker date="1539232803881" expanded="true" signature="110:482" ph="{...}" />
+                <marker date="1539299782240" expanded="false" signature="6:98" ph="..." />
+                <marker date="1539299782240" expanded="true" signature="142:544" ph="{...}" />
+                <marker date="1539299782240" expanded="true" signature="171:542" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PostCommentModel.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Instagram_v_01/Models/PostModels/PostCommentModel.cs">
+      <file leaf-file-name="LikeViewModel.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Instagram_v_01/Models/LikeViewModel.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="60">
+              <caret line="4" column="28" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="28" />
               <folding>
-                <marker date="1539235333143" expanded="true" signature="77:371" ph="{...}" />
-                <marker date="1539235333143" expanded="true" signature="113:369" ph="{...}" />
+                <marker date="1539320668411" expanded="true" signature="64:162" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ManageController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Instagram_v_01/Controllers/ManageController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2025">
+              <caret line="135" column="72" selection-start-line="135" selection-start-column="72" selection-end-line="135" selection-end-column="72" />
+              <folding>
+                <marker date="1539307504927" expanded="true" signature="6:547" ph="..." />
+                <marker date="1539307504927" expanded="true" signature="585:20209" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="687:20207" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="1462:1666" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="1804:3151" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="1906:2048" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="2571:3107" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="3275:4592" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="3322:3386" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="3479:3621" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="3696:4023" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="3847:4009" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="4122:4468" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="4285:4454" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="4671:5239" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="4773:4915" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="5019:5109" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="5381:6303" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="5428:5492" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="5585:5727" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="5900:6013" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="6377:6945" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="6479:6621" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="6725:6818" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="7081:7884" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="7128:7192" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="7285:7427" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="7572:7682" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="7961:8739" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="8063:8205" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="8862:9416" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="9496:10574" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="9598:9740" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="9851:10015" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="10122:10280" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="10710:11466" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="10812:10954" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="11098:11258" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="11552:12164" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="11654:11796" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="11871:12120" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="12244:12734" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="12346:12488" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="12529:12678" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="12843:13544" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="12945:13087" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="13226:13375" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="13626:14037" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="13728:13870" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="14189:15595" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="14291:14433" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="14471:14602" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="14956:15170" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="15663:16017" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="15782:15884" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="16093:16166" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="16283:16852" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="16385:16527" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="16943:17473" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="17045:17187" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="17228:17406" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="17593:18432" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="17695:17837" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="17878:18051" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="18442:20201" ph="Helpers" />
+                <marker date="1539307504927" expanded="true" signature="18512:18684" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="18571:18674" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="18741:19280" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="18898:19053" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="19110:19212" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="19359:19583" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="19700:20181" ph="{...}" />
+                <marker date="1539307504927" expanded="true" signature="19848:20029" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -214,33 +289,73 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Instagram_v_01/Services/FileUploadService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Instagram_v_01/Views/Account/Register.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Instagram_v_01/Models/LikeViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Instagram_v_01/Controllers/LikeController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Instagram_v_01/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Instagram_v_01/Models/PostModels/CommentModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Instagram_v_01/Models/PostModels/PostModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Instagram_v_01/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Instagram_v_01/Views/Shared/_ValidationScriptsPartial.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Instagram_v_01/Views/Manage/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Instagram_v_01/Views/Manage/_ManageNav.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Instagram_v_01/Views/Manage/ManageNavPages.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/47AB2CD7-C87A-4BE2-9599-906C35C9860E/02/b2a1e400/RazorPage.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Instagram_v_01/Views/Manage/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Instagram_v_01/Models/PostModels/PostCommentModel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Instagram_v_01/Models/PostModels/UserPostModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Instagram_v_01/Models/PostViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Instagram_v_01/Views/Post/CreatePost.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Instagram_v_01/Views/Post/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Instagram_v_01/Controllers/PostController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Instagram_v_01/Data/ApplicationDbContext.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Instagram_v_01/Models/Subscription.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Instagram_v_01/Models/AccountViewModels/RegisterViewModel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Instagram_v_01/Data/Migrations/20181011040004_Initial_Instagram.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Instagram_v_01/Data/Migrations/20181011091619_AddFields_Fk.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Instagram_v_01/Controllers/ManageController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Instagram_v_01/Models/ApplicationUser.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Instagram_v_01/Controllers/AccountController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Instagram_v_01/Data/Migrations/20181011085723_Initial_Instagram_foreignKeys.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Instagram_v_01/Data/Migrations/20181011085723_Initial_Instagram_foreignKeys.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Instagram_v_01/Data/Migrations/20181011084857_Initial_Instagram.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Instagram_v_01/Models/ManageViewModels/IndexViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Instagram_v_01/Models/PostModels/LikeModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Instagram_v_01/Models/Subscription.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Instagram_v_01/Models/ApplicationUser.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Instagram_v_01/Views/Manage/Index.cshtml" />
-        <option value="$PROJECT_DIR$/Instagram_v_01/Controllers/ManageController.cs" />
-        <option value="$PROJECT_DIR$/Instagram_v_01/Startup.cs" />
-        <option value="$PROJECT_DIR$/Instagram_v_01/Models/AccountViewModels/RegisterViewModel.cs" />
-        <option value="$PROJECT_DIR$/Instagram_v_01/Controllers/AccountController.cs" />
-        <option value="$PROJECT_DIR$/Instagram_v_01/Views/Account/Register.cshtml" />
-        <option value="$PROJECT_DIR$/Instagram_v_01/Models/ApplicationUser.cs" />
         <option value="$PROJECT_DIR$/Instagram_v_01/Models/PostModels/UserPostModel.cs" />
+        <option value="$PROJECT_DIR$/Instagram_v_01/Models/PostModels/PostCommentModel.cs" />
+        <option value="$PROJECT_DIR$/Instagram_v_01/Models/Entity.cs" />
+        <option value="$PROJECT_DIR$/Instagram_v_01/Models/ApplicationUser.cs" />
         <option value="$PROJECT_DIR$/Instagram_v_01/Models/Subscription.cs" />
         <option value="$PROJECT_DIR$/Instagram_v_01/Data/ApplicationDbContext.cs" />
-        <option value="$PROJECT_DIR$/Instagram_v_01/Models/PostModels/PostCommentModel.cs" />
+        <option value="$PROJECT_DIR$/Instagram_v_01/Services/FileUploadService.cs" />
+        <option value="$PROJECT_DIR$/Instagram_v_01/Models/ManageViewModels/FileTransferModel.cs" />
+        <option value="$PROJECT_DIR$/Instagram_v_01/Models/FileTransferModel.cs" />
+        <option value="$PROJECT_DIR$/Instagram_v_01/Models/AccountViewModels/RegisterViewModel.cs" />
+        <option value="$PROJECT_DIR$/Instagram_v_01/Views/Account/Register.cshtml" />
+        <option value="$PROJECT_DIR$/Instagram_v_01/Views/Manage/_Layout.cshtml" />
+        <option value="$PROJECT_DIR$/Instagram_v_01/Views/Shared/_LoginPartial.cshtml" />
+        <option value="$PROJECT_DIR$/Instagram_v_01/Views/Manage/CreatePost.cshtml" />
+        <option value="$PROJECT_DIR$/Instagram_v_01/Controllers/AccountController.cs" />
+        <option value="$PROJECT_DIR$/Instagram_v_01/Views/PostController1/Index.cshtml" />
+        <option value="$PROJECT_DIR$/Instagram_v_01/Views/PostController1/CreatePost.cshtml" />
+        <option value="$PROJECT_DIR$/Instagram_v_01/Controllers/PostController1.cs" />
+        <option value="$PROJECT_DIR$/Instagram_v_01/Views/Manage/_ManageNav.cshtml" />
+        <option value="$PROJECT_DIR$/Instagram_v_01/Models/PostModels/PostModel.cs" />
+        <option value="$PROJECT_DIR$/Instagram_v_01/Views/Post/CreatePost.cshtml" />
+        <option value="$PROJECT_DIR$/Instagram_v_01/Models/PostViewModel.cs" />
+        <option value="$PROJECT_DIR$/Instagram_v_01/Models/ManageViewModels/IndexViewModel.cs" />
+        <option value="$PROJECT_DIR$/Instagram_v_01/Controllers/ManageController.cs" />
+        <option value="$PROJECT_DIR$/Instagram_v_01/Views/Manage/Index.cshtml" />
+        <option value="$PROJECT_DIR$/Instagram_v_01/Views/Shared/_Layout.cshtml" />
+        <option value="$PROJECT_DIR$/Instagram_v_01/Models/PostModels/LikeModel.cs" />
+        <option value="$PROJECT_DIR$/Instagram_v_01/Models/LikeViewModel.cs" />
+        <option value="$PROJECT_DIR$/Instagram_v_01/Startup.cs" />
+        <option value="$PROJECT_DIR$/Instagram_v_01/Controllers/PostController.cs" />
+        <option value="$PROJECT_DIR$/Instagram_v_01/Models/PostModels/CommentModel.cs" />
+        <option value="$PROJECT_DIR$/Instagram_v_01/Controllers/LikeController.cs" />
+        <option value="$PROJECT_DIR$/Instagram_v_01/Views/Post/Index.cshtml" />
       </list>
     </option>
   </component>
@@ -282,59 +397,7 @@
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="Instagram_v_01 (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Instagram_v_01" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Dependencies" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="Instagram_v_01 (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Instagram_v_01" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Dependencies" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name=".NETCoreApp 2" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="Instagram_v_01 (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Instagram_v_01" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Controllers" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="Instagram_v_01 (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Instagram_v_01" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Data" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="Instagram_v_01 (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Instagram_v_01" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Data" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Migrations" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="Instagram_v_01 (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Instagram_v_01" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Models" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="Instagram_v_01 (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Instagram_v_01" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Models" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="PostModels" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="Instagram_v_01 (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Instagram_v_01" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Views" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="Instagram_v_01 (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Instagram_v_01" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Views" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Account" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
           <select />
@@ -347,6 +410,7 @@
   <component name="PropertiesComponent">
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../52_less/less52Validation/MyFirstMVC.sln" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -362,18 +426,23 @@
   </component>
   <component name="RunManager">
     <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
-      <option name="EXE_PATH" value="" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Instagram_v_01/bin/Debug/netcoreapp2.0/Instagram_v_01.dll" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Instagram_v_01" />
       <option name="PASS_PARENT_ENVS" value="1" />
+      <envs>
+        <env name="ASPNETCORE_ENVIRONMENT" value="Development" />
+        <env name="ASPNETCORE_URLS" value="http://localhost:49733/" />
+      </envs>
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
-      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Instagram_v_01/Instagram_v_01.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
-      <option name="PROJECT_KIND" value="None" />
-      <option name="PROJECT_TFM" value="" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.0" />
+      <browser start="true" url="http://localhost:49733/" />
     </configuration>
   </component>
   <component name="SvnConfiguration">
@@ -386,12 +455,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1539218432634</updated>
-      <workItem from="1539218437404" duration="13668000" />
+      <workItem from="1539218437404" duration="29577000" />
+      <workItem from="1539291471317" duration="33711000" />
+      <workItem from="1539329315425" duration="6881000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13668000" />
+    <option name="totallyTimeSpent" value="70169000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -412,23 +483,24 @@
       <window_info anchor="bottom" id="Unit Tests" order="3" weight="0.32897604" />
       <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="REST Client" order="4" />
-      <window_info anchor="bottom" id="Run" order="10" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="6" visible="true" weight="0.32897604" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.32897604" />
+      <window_info anchor="bottom" id="Terminal" order="6" weight="0.32897604" />
       <window_info anchor="bottom" id="NuGet" order="0" weight="0.32897604" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2553305" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" order="15" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="9" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.39978212" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -438,311 +510,627 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="11" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Instagram_v_01/Models/PostModels/LikeModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+          <folding>
+            <marker date="1539320668341" expanded="false" signature="6:140" ph="..." />
+            <marker date="1539320668341" expanded="true" signature="184:520" ph="{...}" />
+            <marker date="1539320668341" expanded="true" signature="213:518" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Instagram_v_01/Models/PostModels/PostModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="15" selection-end-column="42" />
+          <folding>
+            <marker date="1539299782240" expanded="false" signature="6:98" ph="..." />
+            <marker date="1539299782240" expanded="true" signature="142:544" ph="{...}" />
+            <marker date="1539299782240" expanded="true" signature="171:542" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Instagram_v_01/Models/LikeViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="28" />
+          <folding>
+            <marker date="1539320668411" expanded="true" signature="64:162" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Instagram_v_01/Controllers/ManageController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        <state relative-caret-position="2025">
+          <caret line="135" column="72" selection-start-line="135" selection-start-column="72" selection-end-line="135" selection-end-column="72" />
           <folding>
-            <marker date="1539226376529" expanded="false" signature="6:480" ph="..." />
-            <marker date="1539226376529" expanded="true" signature="518:19347" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="620:19345" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="1351:1563" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="1701:2289" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="1803:1945" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="2002:2245" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="2413:3730" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="2460:2524" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="2617:2759" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="2834:3161" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="2985:3147" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="3260:3606" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="3423:3592" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="3809:4377" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="3911:4053" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="4157:4247" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="4519:5441" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="4566:4630" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="4723:4865" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="5038:5151" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="5515:6083" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="5617:5759" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="5863:5956" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="6219:7022" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="6266:6330" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="6423:6565" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="6710:6820" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="7099:7877" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="7201:7343" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="8000:8554" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="8634:9712" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="8736:8878" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="8989:9153" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="9260:9418" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="9848:10604" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="9950:10092" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="10236:10396" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="10690:11302" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="10792:10934" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="11009:11258" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="11382:11872" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="11484:11626" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="11667:11816" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="11981:12682" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="12083:12225" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="12364:12513" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="12764:13175" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="12866:13008" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="13327:14733" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="13429:13571" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="13609:13740" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="14094:14308" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="14801:15155" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="14920:15022" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="15231:15304" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="15421:15990" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="15523:15665" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="16081:16611" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="16183:16325" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="16366:16544" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="16731:17570" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="16833:16975" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="17016:17189" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="17580:19339" ph="Helpers" />
-            <marker date="1539226376529" expanded="true" signature="17650:17822" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="17709:17812" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="17879:18418" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="18036:18191" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="18248:18350" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="18497:18721" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="18838:19319" ph="{...}" />
-            <marker date="1539226376529" expanded="true" signature="18986:19167" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="6:547" ph="..." />
+            <marker date="1539307504927" expanded="true" signature="585:20209" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="687:20207" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="1462:1666" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="1804:3151" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="1906:2048" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="2571:3107" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="3275:4592" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="3322:3386" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="3479:3621" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="3696:4023" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="3847:4009" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="4122:4468" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="4285:4454" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="4671:5239" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="4773:4915" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="5019:5109" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="5381:6303" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="5428:5492" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="5585:5727" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="5900:6013" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="6377:6945" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="6479:6621" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="6725:6818" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="7081:7884" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="7128:7192" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="7285:7427" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="7572:7682" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="7961:8739" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="8063:8205" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="8862:9416" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="9496:10574" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="9598:9740" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="9851:10015" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="10122:10280" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="10710:11466" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="10812:10954" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="11098:11258" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="11552:12164" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="11654:11796" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="11871:12120" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="12244:12734" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="12346:12488" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="12529:12678" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="12843:13544" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="12945:13087" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="13226:13375" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="13626:14037" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="13728:13870" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="14189:15595" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="14291:14433" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="14471:14602" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="14956:15170" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="15663:16017" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="15782:15884" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="16093:16166" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="16283:16852" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="16385:16527" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="16943:17473" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="17045:17187" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="17228:17406" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="17593:18432" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="17695:17837" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="17878:18051" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="18442:20201" ph="Helpers" />
+            <marker date="1539307504927" expanded="true" signature="18512:18684" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="18571:18674" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="18741:19280" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="18898:19053" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="19110:19212" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="19359:19583" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="19700:20181" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="19848:20029" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Instagram_v_01/Startup.cs">
+    <entry file="file://$PROJECT_DIR$/Instagram_v_01/Controllers/LikeController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
-          <caret line="32" column="82" selection-start-line="32" selection-start-column="82" selection-end-line="32" selection-end-column="82" />
+        <state relative-caret-position="300">
+          <caret line="20" column="72" selection-start-line="20" selection-start-column="72" selection-end-line="20" selection-end-column="72" />
           <folding>
-            <marker date="1539228539857" expanded="false" signature="6:419" ph="..." />
-            <marker date="1539228539857" expanded="true" signature="445:3746" ph="{...}" />
-            <marker date="1539228539857" expanded="true" signature="472:3744" ph="{...}" />
-            <marker date="1539228539857" expanded="true" signature="531:594" ph="{...}" />
-            <marker date="1539228539857" expanded="true" signature="817:2953" ph="{...}" />
-            <marker date="1539228539857" expanded="true" signature="1288:2033" ph="{...}" />
-            <marker date="1539228539857" expanded="true" signature="2139:2804" ph="{...}" />
-            <marker date="1539228539857" expanded="true" signature="3141:3738" ph="{...}" />
-            <marker date="1539228539857" expanded="true" signature="3188:3347" ph="{...}" />
-            <marker date="1539228539857" expanded="true" signature="3364:3448" ph="{...}" />
-            <marker date="1539228539857" expanded="true" signature="3555:3726" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Instagram_v_01/Data/Migrations/20181011040004_Initial_Instagram.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1539230404067" expanded="false" signature="6:95" ph="..." />
-            <marker date="1539230404067" expanded="true" signature="137:3579" ph="{...}" />
-            <marker date="1539230404067" expanded="true" signature="194:3577" ph="{...}" />
-            <marker date="1539230404067" expanded="true" signature="270:2103" ph="{...}" />
-            <marker date="1539230404067" expanded="true" signature="2176:3571" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Instagram_v_01/Models/ApplicationUser.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="76" />
-          <folding>
-            <marker date="1539232550711" expanded="false" signature="6:173" ph="..." />
-            <marker date="1539232550711" expanded="true" signature="206:760" ph="{...}" />
-            <marker date="1539232550711" expanded="true" signature="352:758" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Instagram_v_01/Models/PostModels/UserPostModel.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="76" />
-          <folding>
-            <marker date="1539232803881" expanded="true" signature="77:484" ph="{...}" />
-            <marker date="1539232803881" expanded="true" signature="110:482" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Instagram_v_01/Models/PostModels/PostCommentModel.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <marker date="1539235333143" expanded="true" signature="77:371" ph="{...}" />
-            <marker date="1539235333143" expanded="true" signature="113:369" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Instagram_v_01/Models/AccountViewModels/RegisterViewModel.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <marker date="1539229523793" expanded="false" signature="6:141" ph="..." />
-            <marker date="1539229523793" expanded="true" signature="192:1139" ph="{...}" />
-            <marker date="1539229523793" expanded="true" signature="229:1137" ph="{...}" />
+            <marker date="1539336616051" expanded="true" signature="6:176" ph="..." />
+            <marker date="1539336616051" expanded="true" signature="214:1068" ph="{...}" />
+            <marker date="1539336616051" expanded="true" signature="261:1066" ph="{...}" />
+            <marker date="1539336616051" expanded="true" signature="382:434" ph="{...}" />
+            <marker date="1539336616051" expanded="true" signature="521:1060" ph="{...}" />
+            <marker date="1539336616051" expanded="true" signature="677:763" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Instagram_v_01/Views/Manage/Index.cshtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="150">
+          <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Instagram_v_01/Views/Manage/_Layout.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Instagram_v_01/Views/Manage/_ManageNav.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="114" selection-start-line="9" selection-start-column="114" selection-end-line="9" selection-end-column="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Instagram_v_01/Views/Manage/ManageNavPages.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Instagram_v_01/Services/FileUploadService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Instagram_v_01/Controllers/AccountController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3675">
+          <caret line="245" column="82" selection-start-line="245" selection-start-column="82" selection-end-line="245" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Instagram_v_01/Controllers/ManageController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="66" column="42" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="42" />
           <folding>
-            <marker date="1539220676994" expanded="true" signature="22:111" ph="@..." />
-            <marker date="1539220676994" expanded="true" signature="194:1278" ph="&lt;div.../&gt;" />
-            <marker date="1539220676994" expanded="true" signature="216:1271" ph="&lt;div.../&gt;" />
-            <marker date="1539220676994" expanded="true" signature="247:1260" ph="&lt;form.../&gt;" />
-            <marker date="1539220676994" expanded="true" signature="353:522" ph="&lt;div.../&gt;" />
-            <marker date="1539220676994" expanded="true" signature="535:910" ph="&lt;div.../&gt;" />
-            <marker date="1539220676994" expanded="true" signature="628:891" ph="&lt;div.../&gt;" />
-            <marker date="1539220676994" expanded="true" signature="923:1172" ph="&lt;div.../&gt;" />
-            <marker date="1539220676994" expanded="true" signature="1280:1358" ph="@{...}" />
+            <marker date="1539307504927" expanded="true" signature="6:547" ph="..." />
+            <marker date="1539307504927" expanded="true" signature="585:20209" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="687:20207" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="1462:1666" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="1804:3151" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="1906:2048" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="2571:3107" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="3275:4592" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="3322:3386" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="3479:3621" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="3696:4023" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="3847:4009" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="4122:4468" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="4285:4454" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="4671:5239" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="4773:4915" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="5019:5109" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="5381:6303" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="5428:5492" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="5585:5727" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="5900:6013" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="6377:6945" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="6479:6621" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="6725:6818" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="7081:7884" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="7128:7192" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="7285:7427" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="7572:7682" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="7961:8739" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="8063:8205" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="8862:9416" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="9496:10574" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="9598:9740" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="9851:10015" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="10122:10280" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="10710:11466" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="10812:10954" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="11098:11258" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="11552:12164" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="11654:11796" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="11871:12120" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="12244:12734" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="12346:12488" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="12529:12678" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="12843:13544" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="12945:13087" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="13226:13375" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="13626:14037" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="13728:13870" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="14189:15595" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="14291:14433" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="14471:14602" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="14956:15170" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="15663:16017" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="15782:15884" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="16093:16166" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="16283:16852" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="16385:16527" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="16943:17473" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="17045:17187" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="17228:17406" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="17593:18432" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="17695:17837" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="17878:18051" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="18442:20201" ph="Helpers" />
+            <marker date="1539307504927" expanded="true" signature="18512:18684" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="18571:18674" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="18741:19280" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="18898:19053" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="19110:19212" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="19359:19583" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="19700:20181" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="19848:20029" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Instagram_v_01/Models/AccountViewModels/RegisterViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Instagram_v_01/Models/Entity.cs" />
+    <entry file="file://$PROJECT_DIR$/Instagram_v_01/Data/Migrations/20181011084317_Initial_Instagram_1.cs" />
+    <entry file="file://$PROJECT_DIR$/Instagram_v_01/Data/Migrations/20181011084317_Initial_Instagram_1.Designer.cs" />
+    <entry file="file://$PROJECT_DIR$/Instagram_v_01/Data/Migrations/20181011040004_Initial_Instagram.cs" />
+    <entry file="file://$PROJECT_DIR$/Instagram_v_01/Data/Migrations/20181011084615_Initial_Instagram.cs" />
+    <entry file="file://$PROJECT_DIR$/Instagram_v_01/Data/Migrations/20181011084857_Initial_Instagram.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-285">
+          <caret line="65" column="65" selection-start-line="65" selection-start-column="65" selection-end-line="65" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Instagram_v_01/Data/Migrations/20181011085723_Initial_Instagram_foreignKeys.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Instagram_v_01/Data/Migrations/20181011085723_Initial_Instagram_foreignKeys.Designer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-990" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Instagram_v_01/Data/Migrations/20181011091619_AddFields_Fk.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1449" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Instagram_v_01/Models/Subscription.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="55" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Instagram_v_01/Models/FileTransferModel.cs" />
+    <entry file="file://$PROJECT_DIR$/Instagram_v_01/Models/ApplicationUser.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Instagram_v_01/Services/FileUploadService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Instagram_v_01/Views/Shared/_ValidationScriptsPartial.cshtml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Instagram_v_01/Views/Shared/_LoginPartial.cshtml" />
+    <entry file="file://$PROJECT_DIR$/Instagram_v_01/Views/Manage/CreatePost.cshtml" />
+    <entry file="file://$PROJECT_DIR$/Instagram_v_01/Views/Manage/ManageNavPages.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Instagram_v_01/Models/AccountViewModels/RegisterViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Instagram_v_01/Views/Account/Register.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="36" lean-forward="true" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/47AB2CD7-C87A-4BE2-9599-906C35C9860E/02/b2a1e400/RazorPage.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Instagram_v_01/Views/Manage/_Layout.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Instagram_v_01/Views/Manage/_ManageNav.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="69" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Instagram_v_01/Models/ManageViewModels/IndexViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Instagram_v_01/Views/Manage/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="91" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Instagram_v_01/Models/PostViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Instagram_v_01/Controllers/AccountController.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="223" column="26" lean-forward="true" selection-start-line="223" selection-start-column="26" selection-end-line="223" selection-end-column="26" />
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Instagram_v_01/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="54" column="58" selection-start-line="54" selection-start-column="58" selection-end-line="54" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Instagram_v_01/Views/Shared/_Layout.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="37" column="83" selection-start-line="37" selection-start-column="83" selection-end-line="37" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Instagram_v_01/Views/Post/CreatePost.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="130" selection-start-line="12" selection-start-column="83" selection-end-line="12" selection-end-column="130" />
           <folding>
-            <marker date="1539229535224" expanded="false" signature="6:501" ph="..." />
-            <marker date="1539229535224" expanded="true" signature="539:17818" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="642:17816" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="1114:1288" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="1317:1372" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="1556:1811" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="1985:3306" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="2078:3195" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="2109:2271" ph="/* This doesn't count login failures towards account lockout ... */" />
-            <marker date="1539229535224" expanded="true" signature="2452:2606" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="2652:2792" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="2832:2998" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="3019:3181" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="3446:3952" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="3655:3782" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="4157:5480" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="4204:4268" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="4382:4524" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="4807:4980" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="5021:5197" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="5214:5470" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="5612:6033" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="5820:5947" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="6239:7477" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="6286:6350" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="6464:6591" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="6800:6985" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="7021:7197" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="7214:7467" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="7560:7607" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="7714:7834" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="7868:8171" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="7999:8091" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="8350:9607" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="8469:9496" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="8813:9447" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="9712:9912" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="10077:10428" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="10587:12009" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="10634:10797" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="10900:10984" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="11272:11451" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="11487:11573" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="11590:11999" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="12211:13444" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="12257:13331" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="12469:12622" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="12823:13282" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="12958:13264" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="13570:14105" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="13628:13735" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="13830:13950" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="14195:14242" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="14409:15578" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="14455:15467" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="14633:14835" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="14853:15012" ph="/* For more information on how to enable account confirmation and password reset please ... */" />
-            <marker date="1539229535224" expanded="true" signature="15680:15727" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="15834:16107" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="15874:15997" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="16272:16955" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="16319:16383" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="16486:16651" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="16783:16887" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="17056:17103" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="17167:17214" ph="{...}" />
-            <marker date="1539229535224" expanded="false" signature="17224:17810" ph="Helpers" />
-            <marker date="1539229535224" expanded="true" signature="17294:17466" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="17353:17456" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="17531:17790" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="17584:17656" ph="{...}" />
-            <marker date="1539229535224" expanded="true" signature="17673:17780" ph="{...}" />
+            <marker date="1539300176509" expanded="true" signature="62:119" ph="@..." />
+            <marker date="1539300176509" expanded="true" signature="198:1394" ph="&lt;div.../&gt;" />
+            <marker date="1539300176509" expanded="true" signature="397:1383" ph="&lt;form.../&gt;" />
+            <marker date="1539300176509" expanded="true" signature="637:680" ph="&lt;div.../&gt;" />
+            <marker date="1539300176509" expanded="true" signature="693:980" ph="&lt;div.../&gt;" />
+            <marker date="1539300176509" expanded="true" signature="993:1287" ph="&lt;div.../&gt;" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Instagram_v_01/Views/Account/Register.cshtml">
+    <entry file="file://$PROJECT_DIR$/Instagram_v_01/Controllers/ManageController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
+        <state relative-caret-position="2025">
+          <caret line="135" column="72" selection-start-line="135" selection-start-column="72" selection-end-line="135" selection-end-column="72" />
           <folding>
-            <marker date="1539229686824" expanded="true" signature="25:65" ph="@..." />
-            <marker date="1539229686824" expanded="true" signature="96:2555" ph="&lt;div.../&gt;" />
-            <marker date="1539229686824" expanded="true" signature="118:2548" ph="&lt;div.../&gt;" />
-            <marker date="1539229686824" expanded="true" signature="149:2537" ph="&lt;form.../&gt;" />
-            <marker date="1539229686824" expanded="true" signature="362:590" ph="&lt;div.../&gt;" />
-            <marker date="1539229686824" expanded="true" signature="603:845" ph="&lt;div.../&gt;" />
-            <marker date="1539229686824" expanded="true" signature="858:1127" ph="&lt;div.../&gt;" />
-            <marker date="1539229686824" expanded="true" signature="1140:1383" ph="&lt;div.../&gt;" />
-            <marker date="1539229686824" expanded="true" signature="1396:1674" ph="&lt;div.../&gt;" />
-            <marker date="1539229686824" expanded="true" signature="1687:1918" ph="&lt;div.../&gt;" />
-            <marker date="1539229686824" expanded="true" signature="1931:2171" ph="&lt;div.../&gt;" />
-            <marker date="1539229686824" expanded="true" signature="2184:2445" ph="&lt;div.../&gt;" />
-            <marker date="1539229686824" expanded="true" signature="2557:2635" ph="@{...}" />
+            <marker date="1539307504927" expanded="true" signature="6:547" ph="..." />
+            <marker date="1539307504927" expanded="true" signature="585:20209" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="687:20207" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="1462:1666" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="1804:3151" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="1906:2048" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="2571:3107" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="3275:4592" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="3322:3386" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="3479:3621" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="3696:4023" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="3847:4009" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="4122:4468" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="4285:4454" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="4671:5239" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="4773:4915" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="5019:5109" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="5381:6303" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="5428:5492" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="5585:5727" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="5900:6013" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="6377:6945" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="6479:6621" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="6725:6818" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="7081:7884" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="7128:7192" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="7285:7427" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="7572:7682" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="7961:8739" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="8063:8205" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="8862:9416" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="9496:10574" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="9598:9740" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="9851:10015" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="10122:10280" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="10710:11466" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="10812:10954" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="11098:11258" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="11552:12164" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="11654:11796" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="11871:12120" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="12244:12734" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="12346:12488" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="12529:12678" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="12843:13544" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="12945:13087" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="13226:13375" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="13626:14037" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="13728:13870" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="14189:15595" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="14291:14433" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="14471:14602" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="14956:15170" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="15663:16017" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="15782:15884" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="16093:16166" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="16283:16852" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="16385:16527" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="16943:17473" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="17045:17187" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="17228:17406" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="17593:18432" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="17695:17837" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="17878:18051" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="18442:20201" ph="Helpers" />
+            <marker date="1539307504927" expanded="true" signature="18512:18684" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="18571:18674" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="18741:19280" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="18898:19053" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="19110:19212" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="19359:19583" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="19700:20181" ph="{...}" />
+            <marker date="1539307504927" expanded="true" signature="19848:20029" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Instagram_v_01/Models/Subscription.cs">
+    <entry file="file://$PROJECT_DIR$/Instagram_v_01/Models/LikeViewModel.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="60">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="28" />
           <folding>
-            <marker date="1539235088781" expanded="true" signature="66:310" ph="{...}" />
-            <marker date="1539235088781" expanded="true" signature="98:308" ph="{...}" />
+            <marker date="1539320668411" expanded="true" signature="64:162" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Instagram_v_01/Controllers/PostController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="49" column="26" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
+          <folding>
+            <marker date="1539324600309" expanded="false" signature="6:347" ph="..." />
+            <marker date="1539324600309" expanded="true" signature="385:2639" ph="{...}" />
+            <marker date="1539324600309" expanded="true" signature="432:2637" ph="{...}" />
+            <marker date="1539324600309" expanded="true" signature="904:1088" ph="{...}" />
+            <marker date="1539324600309" expanded="true" signature="1150:1323" ph="{...}" />
+            <marker date="1539324600309" expanded="true" signature="1372:1573" ph="{...}" />
+            <marker date="1539324600309" expanded="true" signature="1634:1681" ph="{...}" />
+            <marker date="1539324600309" expanded="true" signature="1780:2631" ph="{...}" />
+            <marker date="1539324600309" expanded="true" signature="1888:2593" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Instagram_v_01/Models/PostModels/PostModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <marker date="1539299782240" expanded="false" signature="6:98" ph="..." />
+            <marker date="1539299782240" expanded="true" signature="142:544" ph="{...}" />
+            <marker date="1539299782240" expanded="true" signature="171:542" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Instagram_v_01/Models/PostModels/LikeModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="26" />
+          <folding>
+            <marker date="1539320668341" expanded="false" signature="6:140" ph="..." />
+            <marker date="1539320668341" expanded="true" signature="184:520" ph="{...}" />
+            <marker date="1539320668341" expanded="true" signature="213:518" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Instagram_v_01/Data/ApplicationDbContext.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="375">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
-            <marker date="1539235105121" expanded="true" signature="6:259" ph="..." />
-            <marker date="1539235105121" expanded="true" signature="290:1106" ph="{...}" />
-            <marker date="1539235105121" expanded="true" signature="367:1104" ph="{...}" />
-            <marker date="1539235105121" expanded="true" signature="684:704" ph="{...}" />
-            <marker date="1539235105121" expanded="true" signature="775:1098" ph="{...}" />
-            <marker date="1539235105121" expanded="true" signature="841:1087" ph="/* Customize the ASP.NET Identity model and override the defaults if needed. ... */" />
+            <marker date="1539251636634" expanded="false" signature="6:162" ph="..." />
+            <marker date="1539251636634" expanded="true" signature="193:1039" ph="{...}" />
+            <marker date="1539251636634" expanded="true" signature="270:1037" ph="{...}" />
+            <marker date="1539251636634" expanded="true" signature="617:637" ph="{...}" />
+            <marker date="1539251636634" expanded="true" signature="708:1031" ph="{...}" />
+            <marker date="1539251636634" expanded="true" signature="774:1020" ph="/* Customize the ASP.NET Identity model and override the defaults if needed. ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Instagram_v_01/Models/PostModels/CommentModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <marker date="1539336224362" expanded="false" signature="6:85" ph="..." />
+            <marker date="1539336224362" expanded="true" signature="129:511" ph="{...}" />
+            <marker date="1539336224362" expanded="true" signature="161:509" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Instagram_v_01/Controllers/LikeController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <marker date="1539336616051" expanded="true" signature="6:176" ph="..." />
+            <marker date="1539336616051" expanded="true" signature="214:1068" ph="{...}" />
+            <marker date="1539336616051" expanded="true" signature="261:1066" ph="{...}" />
+            <marker date="1539336616051" expanded="true" signature="382:434" ph="{...}" />
+            <marker date="1539336616051" expanded="true" signature="521:1060" ph="{...}" />
+            <marker date="1539336616051" expanded="true" signature="677:763" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Instagram_v_01/Views/Post/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="27" column="55" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
+          <folding>
+            <marker date="1539336887399" expanded="false" signature="7:66" ph="..." />
+            <marker date="1539336887399" expanded="true" signature="259:320" ph="@..." />
+            <marker date="1539336887399" expanded="true" signature="322:3515" ph="&lt;div.../&gt;" />
+            <marker date="1539336887399" expanded="true" signature="403:3333" ph="&lt;div.../&gt;" />
+            <marker date="1539336887399" expanded="true" signature="434:3321" ph="@..." />
+            <marker date="1539336887399" expanded="true" signature="468:3321" ph="{...}" />
+            <marker date="1539336887399" expanded="true" signature="491:3311" ph="&lt;div.../&gt;" />
+            <marker date="1539336887399" expanded="true" signature="597:1073" ph="&lt;div.../&gt;" />
+            <marker date="1539336887399" expanded="true" signature="704:1050" ph="&lt;a.../&gt;" />
+            <marker date="1539336887399" expanded="true" signature="1090:1196" ph="&lt;div.../&gt;" />
+            <marker date="1539336887399" expanded="true" signature="1213:2723" ph="&lt;div.../&gt;" />
+            <marker date="1539336887399" expanded="true" signature="1300:2698" ph="@..." />
+            <marker date="1539336887399" expanded="true" signature="1336:2281" ph="{...}" />
+            <marker date="1539336887399" expanded="true" signature="1383:2116" ph="&lt;form.../&gt;" />
+            <marker date="1539336887399" expanded="true" signature="2306:2698" ph="{...}" />
+            <marker date="1539336887399" expanded="true" signature="2353:2676" ph="&lt;a.../&gt;" />
+            <marker date="1539336887399" expanded="true" signature="2740:3132" ph="&lt;div.../&gt;" />
+            <marker date="1539336887399" expanded="true" signature="2827:3109" ph="&lt;span.../&gt;" />
+            <marker date="1539336887399" expanded="true" signature="2968:3081" ph="&lt;span.../&gt;" />
+            <marker date="1539336887399" expanded="true" signature="3149:3292" ph="&lt;div.../&gt;" />
+            <marker date="1539336887399" expanded="true" signature="3338:3507" ph="&lt;div.../&gt;" />
           </folding>
         </state>
       </provider>

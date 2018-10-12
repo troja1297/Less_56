@@ -7,7 +7,7 @@
 
 <div class="row">
     <div class="col-md-4">
-        <form asp-route-returnUrl="@ViewData["ReturnUrl"]" method="post">
+        <form asp-route-returnUrl="@ViewData["ReturnUrl"]" method="post" enctype="multipart/form-data">
             <h4>Create a new account.</h4>
             <hr />
             <div asp-validation-summary="All" class="text-danger"></div>
@@ -27,9 +27,9 @@
                 <span asp-validation-for="Sex" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="UserPhoto"></label>
-                <input asp-for="UserPhoto" class="form-control" />
-                <span asp-validation-for="UserPhoto" class="text-danger"></span>
+                <label asp-for="UserAvatar"></label>
+                <input type="file" asp-for="UserAvatar" class="form-control" />
+                <span asp-validation-for="UserAvatar" class="text-danger"></span>
             </div>
             <div class="form-group">
                 @Html.Label("UserAbout", "О себе")

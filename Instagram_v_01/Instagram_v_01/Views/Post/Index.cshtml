@@ -1,0 +1,71 @@
+﻿@using Instagram_v_01.Controllers
+@using Microsoft.AspNet.Identity
+@inject SignInManager<ApplicationUser> SignInManager
+@inject Microsoft.AspNetCore.Identity.UserManager<ApplicationUser> UserManager
+@using Microsoft.AspNet.Identity.Owin
+@model PostViewModel
+
+@{
+    ViewBag.Title = "Main Page";
+    Layout = "_Layout";
+}
+
+<div class="row" style="margin-top: 25px;">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+        @foreach (var post in Model.Posts)
+        {
+            <div style="margin: 15px; border: 1px solid #c0c0c0; ; border-radius: 3px; width: 100%;">
+                <div style="border-bottom: 1px solid silver; padding: 10px; background-color: white;">
+                    <a style="text-decoration: none; font-size: 15px; color: black;" asp-route-userId="@post.UserId">
+                        <img style="margin-right: 7px; width: 30px; height: 30px; border-radius: 50%;" src="@PostController.GetUser(post.UserId).UserPhoto"/>
+                        @PostController.GetUser(post.UserId).Name
+                    </a>
+                </div>
+                <div>
+                    <img style="max-width: 748.5px;"src="@post.ImageSource"/>
+                </div>
+                <div style="padding: 10px 0 10px 20px;  background-color: white;">
+                    @if (SignInManager.IsSignedIn(User))
+                    {
+                        <form asp-area="" asp-controller="Like" asp-action="LikePost" method="post" style="display: inline;">
+                            <input type="hidden" name="PostId" value="@post.Id"/>
+                            <input type="hidden" name="UserId" value="@IdentityExtensions.GetUserId(User.Identity)"/>
+                            <input type="submit" style=
+                                   "background: url(images/like.png);
+                                    width: 32px;
+                                    height: 32px;
+                                    background-position: 0;
+                                    background-size: 28px; border: none; background-repeat: no-repeat" value="" />
+                        </form>
+                        <span style="vertical-align: middle; display: inline-block; margin-top: -20px; outline: none; ">@post.LikeCount</span>
+                    }
+                    else
+                    {
+                        <a  asp-action="Login" asp-controller="Account" style="cursor: pointer; width: 30px; height: 30px; text-decoration: none; color: rgba(0, 0, 0, 0.9); font-size: 16px;">
+                            <img style="margin-right: 10px; width: 25px; height: 25px;" src="images/like.png"/>@post.LikeCount
+                        </a>
+                    }
+
+
+                </div>
+                <div style="padding: 10px 0 10px 20px;  background-color: white;">
+                    <span style="font-size: 14px; font-weight: bold;">
+                        @PostController.GetUser(post.UserId).Name
+                        <span style="font-weight: normal;">
+                            @post.Description
+                        </span>
+                    </span>
+                </div>
+                <div style="padding: 10px 0 20px; margin-left: 20px; background-color: white;">
+                    скоро будут комменты
+                </div>
+            </div>
+        }
+
+    </div>
+    <div class="col-md-2">
+        <a style="position: fixed; right: 20%;" class="btn btn-success" asp-action="CreatePost" asp-controller="Post"> Создать пост</a>
+    </div>
+
+</div>
